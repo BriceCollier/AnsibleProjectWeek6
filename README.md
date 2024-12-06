@@ -1,2 +1,2 @@
 # Ansible Project
-This repository contains sample Ansible playbooks.
+This repository contains some sample of Ansible playbooks.

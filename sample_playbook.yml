@@ -1,0 +1,11 @@
+---
+- name: Sample Ansible Playbook
+  hosts: localhost
+  tasks:
+    - name: Echo Hello World
+      debug:
+        msg: "Hello, World!"
+    - name: Create a temporary file
+      file:
+        path: /tmp/sample_file.txt
+        state: touch
